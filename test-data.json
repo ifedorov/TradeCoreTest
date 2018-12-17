@@ -1,0 +1,23 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$100000$IKM41J2XDhjD$LaDvQ4ZPuk97Q7HgZH0SYcNaRws85bSG0Z+q+zIAJcE=",
+      "last_login": "2018-12-15T10:40:56.816Z",
+      "is_superuser": true,
+      "username": "testuser",
+      "is_staff": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "tradetestapp.post",
+    "pk": 1,
+    "fields": {
+      "content": "text2",
+      "author": "1"
+    }
+  }
+]
